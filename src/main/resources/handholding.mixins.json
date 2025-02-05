@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.mg95.handholding.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PlayerEntityMixin"
+  ],
+  "client": [
+    "PlayerEntityModelMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
